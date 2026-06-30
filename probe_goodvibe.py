@@ -220,7 +220,7 @@ def train_head(activations_by_layer, labels, device, lr=1e-3, weight_decay=1e-3,
 
 prompts = construct_prompt(tokenizer, expanded_prompts)
 
-subset_path = "/vol/csedu-nobackup/project/mdeheer/repos/gradient/outputs/gradient-based/safety_neurons_model010111141.json"
+subset_path = " " #Fill in location of safety neurons
 with open (subset_path, "r") as f:
     subset_payload = json.load(f)
 
