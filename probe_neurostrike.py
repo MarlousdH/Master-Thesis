@@ -222,7 +222,7 @@ def train_head(activations_by_layer, labels, device, lr=1e-3, weight_decay=1e-3,
 
 prompts = construct_prompt(tokenizer, expanded_prompts)
 
-subset_path = "/vol/csedu-nobackup/project/mdeheer/repos/NeuroStrike-Neuron-Level-Attacks-on-Aligned-LLMs/outputs/neurostrike/safety_neurons_model0-10090480.json"
+subset_path = " " # Fill in subset path
 with open (subset_path, "r") as f:
     subset_payload = json.load(f)
 
